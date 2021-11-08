@@ -14,3 +14,22 @@ cd into the main directory, then type in:
 It will run all methods.
 
 A separate file is designated for the coupled system and runs in its own jupyter notebook.
+
+
+Note: The default configuration will train all the methods with an embedded integrator (RK4) for a single-step integration i.e. t to t+1. To change the training regime to use gradients, edit:
+
+```
+parser.add_argument('-embed_integ','--embed_integ',action="store_false")
+```
+
+to
+
+```
+parser.add_argument('-embed_integ','--embed_integ',action="store_true")
+```
+
+.
+
+The method can be extended to multi-step integration via neuralODE.
+
+
