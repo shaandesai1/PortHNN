@@ -7,9 +7,9 @@ To run this code, all you need is torch.
 
 cd into the main directory, then type in:
 
-'''
+```
 ./runner_files_reg/run_all_methods.sh 
-'''
+```
 
 It will run all methods.
 
