@@ -30,6 +30,6 @@ parser.add_argument('-embed_integ','--embed_integ',action="store_true")
 
 .
 
-The method can be extended to multi-step integration via neuralODE.
+It is possible to extend the method to multi-step integration via neuralODE [needs implementation]
 
 
