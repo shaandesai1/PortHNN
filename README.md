@@ -11,10 +11,14 @@ cd into the main directory, then type in:
 ./runner_files_reg/run_all_methods.sh 
 ```
 
-It will run all methods.
+It will run all methods and save the models. Then, to generate the figures from the paper use:
+
+```
+general_inference.ipynb
+```
+
 
 A separate file is designated for the coupled system and runs in its own jupyter notebook.
-
 
 Note: The default configuration will train all the methods with an embedded integrator (RK4) for a single-step integration i.e. t to t+1. To change the training regime to use gradients, edit:
 
