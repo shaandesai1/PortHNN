@@ -1,5 +1,5 @@
 # PortHNN
-Port-Hamiltonian Neural Networks for Learning Explicit Time-Dependent Dynamical Systems
+Port-Hamiltonian Neural Networks for Learning Explicit Time-Dependent Dynamical Systems (https://arxiv.org/abs/2107.08024)
 
 We show that an embedded Port-HNN in neural networks is significantly more performant than existing approaches at learning from explicit, non-autonomous time-dependent physical systems.
 
